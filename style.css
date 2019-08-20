@@ -10,6 +10,8 @@
   border: 1px solid red;
 }*/
 
+html, body {height:100%;}
+
 body,
 ul,
 li,
@@ -271,4 +273,25 @@ img {
   grid-column: 1;
   grid-row: 2;
   align-self: end;
+}
+
+
+footer {
+  bottom:0;
+  width:100%;
+  z-index: 0;
+  height: 300px;
+  margin-top: 6em;
+}
+
+.footer-1 {
+  padding-top: 50px;
+  background: #f4f7f6;
+  height: 80px;
+  text-align: center;
+}
+
+.footer-2 {
+  background: #49c5b6;
+  height: 220px;
 }
