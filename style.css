@@ -64,6 +64,30 @@ h1 {
   font-size: .8em;
 }
 
+.project-title {
+  font-size: 1.3em;
+  margin-bottom: .4em;
+}
+
+.session-par > .project-descrition {
+  border-right: 1px solid black;
+  padding-right: 1em;
+}
+
+.session-impar > .project-descrition {
+  border-left: 1px solid black;
+  padding-left: 1em;
+}
+
+.session-par {
+  text-align: right;
+  margin-bottom: 2em;
+}
+
+.session-impar {
+  margin-bottom: 2em;
+}
+
 img {
   max-width: 100%;
   display: block;
